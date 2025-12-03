@@ -1,0 +1,163 @@
+tens aqui o project charter um bocadinho mais detalhado para começar o projeto de POO:
+
+📜 Project Charter Técnico e Executivo: Sistema de Gestão Académica (SGA-POO)
+Versão: 7.0 (Definitiva) Estado: Planeamento (Nenhuma linha de código escrita)
+
+1. Visão Geral e Objetivos
+Projeto: Desenvolvimento de uma aplicação Desktop (Windows Forms) para gestão académica de uma instituição de ensino.
+
+Arquitetura: Solução modular em 3 Camadas (Apresentação, Negócio, Dados) com Injeção de Dependência.
+
+Dados: Persistência em base de dados relacional (SQL Server) utilizando ORM (Entity Framework Core 8).
+
+Meta Académica: Implementação rigorosa de Paradigmas de Orientação a Objetos (POO), tratamento de exceções e regras de negócio complexas conforme enunciado.
+
+2. Stack Tecnológica e Requisitos de Ambiente
+Para iniciar o desenvolvimento, o ambiente deve ser preparado com os seguintes componentes:
+
+IDE: Visual Studio 2022 (Workload: .NET Desktop Development).
+
+Motor de Base de Dados: Microsoft SQL Server 2022.
+
+Estratégia de Implementação: Utilização de contentor Docker (Imagem: mcr.microsoft.com/mssql/server:2022-latest) para evitar instalações pesadas no Windows.
+
+Ferramenta de Gestão de BD: Visual Studio (SQL Server Object Explorer) ou Azure Data Studio.
+
+Framework: .NET 8.0.
+
+Bibliotecas Nuget (Principais):
+
+Microsoft.EntityFrameworkCore.SqlServer
+
+Microsoft.EntityFrameworkCore.Tools (Para comandos de consola)
+
+Microsoft.Extensions.Configuration.Json (Para leitura segura de configurações)
+
+3. Fase 0: Infraestrutura de Dados (Pré-Desenvolvimento)
+Antes de qualquer código C#, a infraestrutura de dados deve ser estabelecida.
+
+Instanciação do Servidor: Inicializar o SQL Server via Docker na porta 1433.
+
+Criação do Schema (DDL): Execução do script SQL (EscolaDB Schema.sql) para criar a base de dados EscolaDB e as tabelas:
+
+Aluno, Curso, Docente, UnidadeCurricular, Inscricao, AnoLetivo, EpocaAvaliacao, EstadoEpoca.
+
+Seed Data (DML): Execução do script (EscolaDB Data.sql) para popular a base com dados de teste iniciais.
+
+4. Arquitetura da Solução (Estrutura Lógica)
+A solução será nomeada SGA_POO.sln e dividida estritamente em três projetos para garantir o desacoplamento:
+
+A. Projeto SGA_POO.Negocio (Class Library)
+Papel: O "Cérebro". Não depende de ninguém. Define as regras e os contratos.
+
+Conteúdo:
+
+Entidades (Models): Classes POCO (Ex: Aluno, Inscricao) que mapeiam as tabelas.
+
+Interfaces (Contratos): Definição do que os repositórios devem fazer (Ex: IAlunoRepositorio, IGenericoRepositorio<T>).
+
+Serviços de Domínio: Classes que contêm a lógica pesada (Ex: GestorInscricoes.cs).
+
+Exceções: Classe RegraNegocioException (herda de Exception).
+
+B. Projeto SGA_POO.Dados (Class Library)
+Papel: O "Músculo". Executa as operações técnicas de acesso à BD.
+
+Dependências: Referencia SGA_POO.Negocio.
+
+Conteúdo:
+
+Contexto EF: Classe EscolaDBContext (herda de DbContext).
+
+Repositórios Concretos: Implementação das interfaces (Ex: AlunoRepositorioEF que usa o DbContext para cumprir o contrato de IAlunoRepositorio).
+
+Técnica: Database-First (Scaffolding). O código das entidades será gerado aqui e movido para a camada de Negócio para evitar ciclos.
+
+C. Projeto SGA_POO.Apresentacao (Windows Forms App)
+Papel: A "Cara". Interage com o utilizador.
+
+Dependências: Referencia SGA_POO.Negocio e SGA_POO.Dados.
+
+Configuração: Ficheiro appsettings.json contendo a Connection String (Segurança obrigatória).
+
+Program.cs: Ponto de entrada onde se configuram as injeções de dependência (Associar Interfaces às Classes Concretas).
+
+5. Detalhe das Regras de Negócio (Core Logic)
+A classe GestorInscricoes.cs (na camada de Negócio) será responsável por validar todas as transações antes de gravar na BD.
+
+Regra da Primeira Inscrição:
+
+Ao tentar criar uma inscrição, verificar se o aluno já tem inscrições nessa UC/Ano. Se Count == 0, a Época é forçada a ser "EFRE" (Frequência).
+
+Regra da Reprovação/Falta:
+
+No método LancarNota(nota, presenca):
+
+Se Nota < 10 OU Presenca == "F": Alterar estado atual para "Admitido" (10) E criar automaticamente nova inscrição na Época Normal ("ENEX").
+
+Regra de Precedência de Épocas:
+
+Para inscrever em Recurso (EREC): Exige verificação se existe inscrição em "Normal" com estado "Reprovado" (20).
+
+Para inscrever em Especial (EESP): Exige verificação se existe inscrição em "Recurso" com estado "Reprovado" (20).
+
+Caso contrário: Lançar RegraNegocioException.
+
+Regra de Aprovação:
+
+Se Nota >= 10: Alterar estado para "Aprovado" (30) e Presença para "P".
+
+Regra de Unicidade de Sucesso:
+
+Impedir qualquer nova inscrição numa UC onde o aluno já tenha uma inscrição com estado "Aprovado".
+
+6. Especificações da Interface (UI)
+Todos os formulários devem herdar de Form e usar ErrorProvider para validações.
+
+Menu Principal (MDI Container):
+
+Deve conter barra de menus (MenuStrip) com ícones.
+
+Menus: Ficheiro (Sair), Tabelas (CRUDs), Gestão (Inscrições), Consultas, Ajuda.
+
+Dashboard: Ao abrir, apresenta contadores (KPIs) de registos no centro do ecrã.
+
+Gestão de Alunos:
+
+Gridview oculta a coluna da foto (BLOB).
+
+Campo PictureBox permite visualização.
+
+Botão "Upload" permite carregar imagem do disco (conversão File -> MemoryStream -> byte[]).
+
+Gestão de Inscrições:
+
+Comboboxes carregadas dinamicamente (Aluno, UC, Ano).
+
+Tratamento global de erros: Blocos try-catch capturam RegraNegocioException e mostram MessageBox com ícone de aviso, não crashando a aplicação.
+
+Consulta Master-Detail (Turmas):
+
+Filtros Superiores: Curso (Obrigatório), Ano, Semestre.
+
+Comportamento: Ao clicar numa linha da grelha de UCs (Master), dispara evento para preencher a grelha de Alunos (Detail).
+
+7. Normas de Qualidade de Código (Avaliação)
+O código deve seguir rigorosamente as convenções para garantir a cotação de 4 valores:
+
+PascalCase: Classes (Aluno), Métodos (ObterAlunos), Propriedades (DataNascimento).
+
+camelCase: Variáveis locais (notaFinal), parâmetros (idAluno), campos privados (_context).
+
+Comentários: Todas as classes e métodos complexos devem ter sumários XML (/// <summary>).
+
+Tratamento de Erros: Nunca "engolir" exceções. Tratar ou propagar.
+
+8. Entregáveis Finais
+A estrutura de pastas para entrega é rígida:
+
+Pasta Codigo Fonte: Contém a solução .sln limpa.
+
+Pasta Executavel: Contém o build (bin/Release) funcional, incluindo o ficheiro appsettings.json configurado.
+
+Pasta Relatorio: Documento PDF explicativo.
