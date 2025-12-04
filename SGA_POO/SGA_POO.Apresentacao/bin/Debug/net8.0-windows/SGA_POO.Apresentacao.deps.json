@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "SGA_POO.Apresentacao/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "SGA_POO.Dados": "1.0.0",
           "SGA_POO.Negocio": "1.0.0"
         },

@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\",
+  "WorkspaceRootPath": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED1B6040-F301-4F05-A1B3-E78998B93541}|SGA_POO.Dados\\SGA_POO.Dados.csproj|c:\\users\\utilizador\\source\\repos\\sga_poo\\sga_poo.dados\\sga_poo.dados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{ED1B6040-F301-4F05-A1B3-E78998B93541}|SGA_POO.Dados\\SGA_POO.Dados.csproj|solutionrelative:sga_poo.dados\\sga_poo.dados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunodetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunodetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\utilizador\\source\\repos\\sga_poo\\sga_poo.apresentacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunodetalhes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunodetalhes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70AB539A-9F94-4573-A607-55058B6BA77C}|SGA_POO.Negocio\\SGA_POO.Negocio.csproj|c:\\users\\utilizador\\source\\repos\\sga_poo\\sga_poo.negocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70AB539A-9F94-4573-A607-55058B6BA77C}|SGA_POO.Negocio\\SGA_POO.Negocio.csproj|solutionrelative:sga_poo.negocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunodetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunodetalhes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\formalunos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\formalunos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Schema v1.1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.apresentacao\\sga_poo.apresentacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F7B7B782-9E29-4493-8557-301619F7AC2D}|SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj|solutionrelative:sga_poo.apresentacao\\sga_poo.apresentacao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ficheiros Suporte\\EscolaDB Data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{ED1B6040-F301-4F05-A1B3-E78998B93541}|SGA_POO.Dados\\SGA_POO.Dados.csproj|c:\\users\\hp\\source\\repos\\poo\\sga_poo\\sga_poo.dados\\repositorios\\alunorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1B6040-F301-4F05-A1B3-E78998B93541}|SGA_POO.Dados\\SGA_POO.Dados.csproj|solutionrelative:sga_poo.dados\\repositorios\\alunorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,66 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SGA_POO.Dados",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
-              "RelativeDocumentMoniker": "SGA_POO.Dados\\SGA_POO.Dados.csproj",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
-              "RelativeToolTip": "SGA_POO.Dados\\SGA_POO.Dados.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T17:26:42.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\Form1.cs",
-              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\Form1.cs",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\Form1.cs [Design]",
-              "RelativeToolTip": "SGA_POO.Apresentacao\\Form1.cs [Design]",
+              "Title": "FormAlunoDetalhes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.Designer.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunoDetalhes.Designer.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.Designer.cs",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunoDetalhes.Designer.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAswGwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T17:23:56.64Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\Class1.cs",
-              "RelativeDocumentMoniker": "SGA_POO.Negocio\\Class1.cs",
-              "ToolTip": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\Class1.cs",
-              "RelativeToolTip": "SGA_POO.Negocio\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T17:18:55.932Z",
+              "WhenOpened": "2025-12-04T20:57:33.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EscolaDB Data.sql ",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Data.sql",
-              "RelativeDocumentMoniker": "Ficheiros Suporte\\EscolaDB Data.sql",
-              "ToolTip": "EscolaDB Data.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-04T17:12:45.699Z",
+              "DocumentIndex": 0,
+              "Title": "FormAlunoDetalhes.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswD8AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:54:18.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EscolaDB Schema v1.1.sql ",
-              "DocumentMoniker": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\Ficheiros Suporte\\EscolaDB Schema v1.1.sql",
-              "RelativeDocumentMoniker": "Ficheiros Suporte\\EscolaDB Schema v1.1.sql",
-              "ToolTip": "EscolaDB Schema v1.1.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-04T17:10:13.189Z",
+              "Title": "FormAlunos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunos.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.cs [Design]",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:13:21.233Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAlunos.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunos.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.cs",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunos.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:15:27.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAlunoDetalhes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunoDetalhes.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunoDetalhes.cs [Design]",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunoDetalhes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:39:48.276Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAlunos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.Designer.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\FormAlunos.Designer.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\FormAlunos.Designer.cs",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\FormAlunos.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAD4vy0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:35:23.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\Program.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\Program.cs",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:10:02.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlunoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Dados\\Repositorios\\AlunoRepositorio.cs",
+              "RelativeDocumentMoniker": "SGA_POO.Dados\\Repositorios\\AlunoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Dados\\Repositorios\\AlunoRepositorio.cs",
+              "RelativeToolTip": "SGA_POO.Dados\\Repositorios\\AlunoRepositorio.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:09:26.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SGA_POO.Apresentacao.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+              "RelativeDocumentMoniker": "SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+              "RelativeToolTip": "SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T17:55:58.358Z",
               "EditorCaption": ""
             }
           ]
