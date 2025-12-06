@@ -2,11 +2,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SGA_POO.Dados.Entidades;
+using SGA_POO.Dados.Repositorios;
+using SGA_POO.Negocio.Interfaces;
 using System;
 using System.IO;
 using System.Windows.Forms;
-using SGA_POO.Negocio.Interfaces;
-using SGA_POO.Dados.Repositorios;
 
 namespace SGA_POO.Apresentacao
 {
@@ -35,19 +35,31 @@ namespace SGA_POO.Apresentacao
             string stringConexao = configuration.GetConnectionString("EscolaDB");
             services.AddDbContext<EscolaDBContext>(options =>
                 options.UseSqlServer(stringConexao));
-            // Registar os Repositórios
-            services.AddScoped<IAlunoRepositorio, AlunoRepositorio>();
 
-            // Registar o Formulário Principal
-            services.AddTransient<Form1>();
-            services.AddTransient<FormAlunos>();
+            // --- REGISTAR OS REPOSITÓRIOS (A Lógica) ---
+            services.AddScoped<IAlunoRepositorio, AlunoRepositorio>();
+            services.AddScoped<ICursoRepositorio, CursoRepositorio>(); // OBRIGATÓRIO PARA CURSOS
+            services.AddScoped<IDocenteRepositorio, DocenteRepositorio>(); // NOVO
+            services.AddScoped<IUnidadeCurricularRepositorio, UnidadeCurricularRepositorio>(); // NOVO
+            services.AddScoped<IAnoLetivoRepositorio, AnoLetivoRepositorio>();
+            services.AddScoped<IInscricaoRepositorio, InscricaoRepositorio>();
+
+            // --- REGISTAR OS FORMULÁRIOS (A Visualização) ---
+            services.AddTransient<Form1>();        // Menu Principal
+            services.AddTransient<FormAlunos>();   // Janela de Alunos
+            services.AddTransient<FormCursos>();   // Janela Cursos
+            services.AddTransient<FormUnidadesCurriculares>(); // Janela Unidades Curriculares
+            services.AddTransient<FormDocentes>();
+            services.AddTransient<FormAnosLetivos>();
+            services.AddTransient<FormInscricoes>();
+            services.AddTransient<FormTurmas>();
 
             // 4. Construir e Arrancar
             using (ServiceProvider serviceProvider = services.BuildServiceProvider())
             {
-                // MUDANÇA AQUI: Pedir o FormAlunos em vez do Form1
-                var formParaAbrir = serviceProvider.GetRequiredService<FormAlunos>();
-                Application.Run(formParaAbrir);
+                // Arrancar sempre com o Menu Principal (Form1)
+                var formPrincipal = serviceProvider.GetRequiredService<Form1>();
+                Application.Run(formPrincipal);
             }
         }
     }

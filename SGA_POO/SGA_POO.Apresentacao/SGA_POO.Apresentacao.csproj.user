@@ -4,10 +4,46 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormAcerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormAlunoDetalhes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAnoLetivoDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAnosLetivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCursoDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDocenteDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInscricaoDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormInscricoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTurmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUnidadeCurricularDetalhes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUnidadesCurriculares.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

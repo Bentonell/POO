@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj": {}
+    "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj": {
+    "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+        "projectUniqueName": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
         "projectName": "SGA_POO.Apresentacao",
-        "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Apresentacao\\obj\\",
+        "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\SGA_POO.Apresentacao.csproj",
+        "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Apresentacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utilizador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj": {
-                "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj"
+              "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj": {
+                "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj"
               },
-              "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
-                "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj"
+              "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
+                "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -89,24 +89,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj": {
+    "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
+        "projectUniqueName": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
         "projectName": "SGA_POO.Dados",
-        "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Dados\\obj\\",
+        "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\SGA_POO.Dados.csproj",
+        "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Dados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utilizador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,8 +121,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
-                "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj"
+              "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
+                "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj"
               }
             }
           }
@@ -137,7 +137,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -174,24 +174,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
+    "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj",
         "projectName": "SGA_POO.Negocio",
-        "projectPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Source\\Repos\\POO\\SGA_POO\\SGA_POO.Negocio\\obj\\",
+        "projectPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\SGA_POO.Negocio.csproj",
+        "packagesPath": "C:\\Users\\Utilizador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilizador\\source\\repos\\SGA_POO\\SGA_POO.Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utilizador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -218,7 +218,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -239,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

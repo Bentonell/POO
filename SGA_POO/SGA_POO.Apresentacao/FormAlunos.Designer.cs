@@ -37,50 +37,58 @@
             // 
             // dgvAlunos
             // 
+            dgvAlunos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvAlunos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAlunos.Dock = DockStyle.Fill;
             dgvAlunos.Location = new Point(0, 0);
+            dgvAlunos.Margin = new Padding(2);
             dgvAlunos.Name = "dgvAlunos";
             dgvAlunos.RowHeadersWidth = 62;
-            dgvAlunos.Size = new Size(800, 450);
+            dgvAlunos.Size = new Size(984, 629);
             dgvAlunos.TabIndex = 0;
             // 
             // btnNovo
             // 
-            btnNovo.Location = new Point(12, 404);
+            btnNovo.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnNovo.Location = new Point(8, 633);
+            btnNovo.Margin = new Padding(2);
             btnNovo.Name = "btnNovo";
-            btnNovo.Size = new Size(112, 34);
+            btnNovo.Size = new Size(78, 20);
             btnNovo.TabIndex = 1;
             btnNovo.Text = "Novo Aluno";
             btnNovo.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(130, 404);
+            btnEditar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnEditar.Location = new Point(91, 633);
+            btnEditar.Margin = new Padding(2);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(112, 34);
+            btnEditar.Size = new Size(78, 20);
             btnEditar.TabIndex = 2;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(248, 404);
+            btnEliminar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnEliminar.Location = new Point(174, 633);
+            btnEliminar.Margin = new Padding(2);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(112, 34);
+            btnEliminar.Size = new Size(78, 20);
             btnEliminar.TabIndex = 3;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
             // 
             // FormAlunos
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(984, 661);
             Controls.Add(btnEliminar);
             Controls.Add(btnEditar);
             Controls.Add(btnNovo);
             Controls.Add(dgvAlunos);
+            Margin = new Padding(2);
             Name = "FormAlunos";
             Text = "FormAlunos";
             ((System.ComponentModel.ISupportInitialize)dgvAlunos).EndInit();

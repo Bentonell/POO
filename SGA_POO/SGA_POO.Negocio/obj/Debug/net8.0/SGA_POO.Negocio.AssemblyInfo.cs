@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGA_POO.Negocio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d025a366001e04d172cd5f282f87fcb4f6f609db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGA_POO.Negocio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGA_POO.Negocio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
