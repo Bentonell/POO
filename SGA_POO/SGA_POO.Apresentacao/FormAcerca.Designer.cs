@@ -38,35 +38,36 @@
             // 
             lTitulo.AutoSize = true;
             lTitulo.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lTitulo.Location = new Point(227, 26);
+            lTitulo.Location = new Point(259, 35);
             lTitulo.Name = "lTitulo";
-            lTitulo.Size = new Size(329, 25);
+            lTitulo.Size = new Size(424, 32);
             lTitulo.TabIndex = 0;
             lTitulo.Text = "SGA - Sistema de Gestão Académica";
             // 
             // lInfo
             // 
             lInfo.AutoSize = true;
-            lInfo.Location = new Point(12, 396);
+            lInfo.Location = new Point(14, 528);
             lInfo.Name = "lInfo";
-            lInfo.Size = new Size(133, 45);
+            lInfo.Size = new Size(205, 60);
             lInfo.TabIndex = 1;
-            lInfo.Text = "Trabalho realizado por:\r\nJoão Bento nº82602\r\nRodrigo Manguinhas nº";
+            lInfo.Text = "Trabalho realizado por:\r\nJoão Bento nº82602\r\nRodrigo Manguinhas nº82606";
             // 
             // lVersão
             // 
             lVersão.AutoSize = true;
-            lVersão.Location = new Point(729, 426);
+            lVersão.Location = new Point(833, 568);
             lVersão.Name = "lVersão";
-            lVersão.Size = new Size(59, 15);
+            lVersão.Size = new Size(75, 20);
             lVersão.TabIndex = 2;
             lVersão.Text = "versão 1.0";
             // 
             // btnFechar
             // 
-            btnFechar.Location = new Point(366, 418);
+            btnFechar.Location = new Point(418, 557);
+            btnFechar.Margin = new Padding(3, 4, 3, 4);
             btnFechar.Name = "btnFechar";
-            btnFechar.Size = new Size(75, 23);
+            btnFechar.Size = new Size(86, 31);
             btnFechar.TabIndex = 3;
             btnFechar.Text = "Fechar";
             btnFechar.UseVisualStyleBackColor = true;
@@ -74,14 +75,15 @@
             // 
             // FormAcerca
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(btnFechar);
             Controls.Add(lVersão);
             Controls.Add(lInfo);
             Controls.Add(lTitulo);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormAcerca";
             StartPosition = FormStartPosition.CenterParent;
             Text = "FormAcerca";

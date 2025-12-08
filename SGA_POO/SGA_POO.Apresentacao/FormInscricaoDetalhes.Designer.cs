@@ -36,8 +36,6 @@
             lAno = new Label();
             lEpoca = new Label();
             lUC = new Label();
-            txtNota = new TextBox();
-            chkPresenca = new CheckBox();
             btnGravar = new Button();
             btnCancelar = new Button();
             SuspendLayout();
@@ -46,97 +44,85 @@
             // 
             cboAluno.DropDownStyle = ComboBoxStyle.DropDownList;
             cboAluno.FormattingEnabled = true;
-            cboAluno.Location = new Point(12, 25);
+            cboAluno.Location = new Point(14, 33);
+            cboAluno.Margin = new Padding(3, 4, 3, 4);
             cboAluno.Name = "cboAluno";
-            cboAluno.Size = new Size(121, 23);
+            cboAluno.Size = new Size(138, 28);
             cboAluno.TabIndex = 0;
             // 
             // cboUC
             // 
             cboUC.DropDownStyle = ComboBoxStyle.DropDownList;
             cboUC.FormattingEnabled = true;
-            cboUC.Location = new Point(12, 74);
+            cboUC.Location = new Point(14, 99);
+            cboUC.Margin = new Padding(3, 4, 3, 4);
             cboUC.Name = "cboUC";
-            cboUC.Size = new Size(121, 23);
+            cboUC.Size = new Size(138, 28);
             cboUC.TabIndex = 1;
             // 
             // cboAno
             // 
             cboAno.DropDownStyle = ComboBoxStyle.DropDownList;
             cboAno.FormattingEnabled = true;
-            cboAno.Location = new Point(173, 25);
+            cboAno.Location = new Point(198, 33);
+            cboAno.Margin = new Padding(3, 4, 3, 4);
             cboAno.Name = "cboAno";
-            cboAno.Size = new Size(121, 23);
+            cboAno.Size = new Size(138, 28);
             cboAno.TabIndex = 2;
             // 
             // cboEpoca
             // 
             cboEpoca.DropDownStyle = ComboBoxStyle.DropDownList;
             cboEpoca.FormattingEnabled = true;
-            cboEpoca.Location = new Point(173, 74);
+            cboEpoca.Location = new Point(198, 99);
+            cboEpoca.Margin = new Padding(3, 4, 3, 4);
             cboEpoca.Name = "cboEpoca";
-            cboEpoca.Size = new Size(121, 23);
+            cboEpoca.Size = new Size(138, 28);
             cboEpoca.TabIndex = 3;
             // 
             // lAluno
             // 
             lAluno.AutoSize = true;
-            lAluno.Location = new Point(12, 7);
+            lAluno.Location = new Point(14, 9);
             lAluno.Name = "lAluno";
-            lAluno.Size = new Size(39, 15);
+            lAluno.Size = new Size(48, 20);
             lAluno.TabIndex = 4;
             lAluno.Text = "Aluno";
             // 
             // lAno
             // 
             lAno.AutoSize = true;
-            lAno.Location = new Point(173, 9);
+            lAno.Location = new Point(198, 12);
             lAno.Name = "lAno";
-            lAno.Size = new Size(29, 15);
+            lAno.Size = new Size(36, 20);
             lAno.TabIndex = 5;
             lAno.Text = "Ano";
             // 
             // lEpoca
             // 
             lEpoca.AutoSize = true;
-            lEpoca.Location = new Point(173, 56);
+            lEpoca.Location = new Point(198, 75);
             lEpoca.Name = "lEpoca";
-            lEpoca.Size = new Size(39, 15);
+            lEpoca.Size = new Size(50, 20);
             lEpoca.TabIndex = 6;
             lEpoca.Text = "Epoca";
             // 
             // lUC
             // 
             lUC.AutoSize = true;
-            lUC.Location = new Point(12, 56);
+            lUC.Location = new Point(14, 75);
             lUC.Name = "lUC";
-            lUC.Size = new Size(23, 15);
+            lUC.Size = new Size(28, 20);
             lUC.TabIndex = 7;
             lUC.Text = "UC";
-            // 
-            // txtNota
-            // 
-            txtNota.Location = new Point(12, 118);
-            txtNota.Name = "txtNota";
-            txtNota.Size = new Size(100, 23);
-            txtNota.TabIndex = 8;
-            // 
-            // chkPresenca
-            // 
-            chkPresenca.AutoSize = true;
-            chkPresenca.Location = new Point(12, 162);
-            chkPresenca.Name = "chkPresenca";
-            chkPresenca.Size = new Size(112, 19);
-            chkPresenca.TabIndex = 9;
-            chkPresenca.Text = "Esteve Presente?";
-            chkPresenca.UseVisualStyleBackColor = true;
             // 
             // btnGravar
             // 
             btnGravar.DialogResult = DialogResult.OK;
-            btnGravar.Location = new Point(58, 214);
+            btnGravar.Location = new Point(66, 285);
+            btnGravar.Margin = new Padding(3, 4, 3, 4);
             btnGravar.Name = "btnGravar";
-            btnGravar.Size = new Size(75, 23);
+            btnGravar.Size = new Size(86, 31);
             btnGravar.TabIndex = 10;
             btnGravar.Text = "Gravar";
             btnGravar.UseVisualStyleBackColor = true;
@@ -145,9 +131,10 @@
             // btnCancelar
             // 
             btnCancelar.DialogResult = DialogResult.Cancel;
-            btnCancelar.Location = new Point(164, 214);
+            btnCancelar.Location = new Point(187, 285);
+            btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(75, 23);
+            btnCancelar.Size = new Size(86, 31);
             btnCancelar.TabIndex = 11;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -155,13 +142,11 @@
             // 
             // FormInscricaoDetalhes
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(328, 281);
+            ClientSize = new Size(375, 375);
             Controls.Add(btnCancelar);
             Controls.Add(btnGravar);
-            Controls.Add(chkPresenca);
-            Controls.Add(txtNota);
             Controls.Add(lUC);
             Controls.Add(lEpoca);
             Controls.Add(lAno);
@@ -170,6 +155,7 @@
             Controls.Add(cboAno);
             Controls.Add(cboUC);
             Controls.Add(cboAluno);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormInscricaoDetalhes";
             Text = "FormInscricaoDetalhes";
             Load += FormInscricaoDetalhes_Load;
@@ -187,8 +173,6 @@
         private Label lAno;
         private Label lEpoca;
         private Label lUC;
-        private TextBox txtNota;
-        private CheckBox chkPresenca;
         private Button btnGravar;
         private Button btnCancelar;
     }

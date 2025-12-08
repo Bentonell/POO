@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SGA_POO.Dados.Entidades;
 using SGA_POO.Dados.Repositorios;
 using SGA_POO.Negocio.Interfaces;
+using SGA_POO.Negocio.Servicos;
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -43,6 +44,9 @@ namespace SGA_POO.Apresentacao
             services.AddScoped<IUnidadeCurricularRepositorio, UnidadeCurricularRepositorio>(); // NOVO
             services.AddScoped<IAnoLetivoRepositorio, AnoLetivoRepositorio>();
             services.AddScoped<IInscricaoRepositorio, InscricaoRepositorio>();
+
+            // --- SERVIÇOS DE DOMÍNIO (Regras de Negócio) ---
+            services.AddScoped<GestorInscricoes>();
 
             // --- REGISTAR OS FORMULÁRIOS (A Visualização) ---
             services.AddTransient<Form1>();        // Menu Principal

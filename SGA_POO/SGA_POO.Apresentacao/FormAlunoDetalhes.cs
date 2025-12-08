@@ -57,16 +57,7 @@ namespace SGA_POO.Apresentacao
             txtEmail.Text = _alunoAtual.Email;
             txtCurso.Text = _alunoAtual.ReferenciaCurso.ToString();
 
-            // <--- CORREÇÃO AQUI: Converter DateOnly para DateTime
-            if (_alunoAtual.DataNascimento != null)
-            {
-                // Converte a data da BD para DateTime (adicionando 00:00h como hora)
-                dtpDataNascimento.Value = _alunoAtual.DataNascimento.ToDateTime(TimeOnly.MinValue);
-            }
-            else
-            {
-                dtpDataNascimento.Value = DateTime.Now;
-            }
+            dtpDataNascimento.Value = _alunoAtual.DataNascimento.ToDateTime(TimeOnly.MinValue);
 
             // Carregar Foto se existir
             if (_alunoAtual.Foto != null && _alunoAtual.Foto.Length > 0)

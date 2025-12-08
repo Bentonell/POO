@@ -34,6 +34,14 @@ namespace SGA_POO.Dados.Repositorios
                 .ToList();
         }
 
+        public List<Inscricao> ObterPorAlunoEUnidade(int idAluno, int idUC)
+        {
+            // Vai à BD buscar todas as inscrições deste aluno nesta cadeira (histórico)
+            return _context.Inscricaos
+                .Where(i => i.NumeroAluno == idAluno && i.IdUnidadeCurricular == idUC)
+                .ToList();
+        }
+
         public bool ExisteInscricao(int idAluno, int idUC, int idAno, string idEpoca)
         {
             // Verifica se este aluno já está inscrito nesta UC neste ano/época
@@ -59,6 +67,22 @@ namespace SGA_POO.Dados.Repositorios
                 _context.Inscricaos.Remove(inscricao);
                 _context.SaveChanges();
             }
+        }
+
+        public Inscricao ObterPorChave(int idAluno, int idUC, int idAno, string idEpoca)
+        {
+            // Busca a inscrição específica (sem tracking para ser mais leve, ou com se quisermos editar direto)
+            return _context.Inscricaos.FirstOrDefault(i =>
+                i.NumeroAluno == idAluno &&
+                i.IdUnidadeCurricular == idUC &&
+                i.IdAnoLetivo == (short)idAno &&
+                i.IdEpocaAvaliacao == idEpoca);
+        }
+
+        public void Atualizar(Inscricao inscricao)
+        {
+            _context.Inscricaos.Update(inscricao);
+            _context.SaveChanges();
         }
     }
 }
